@@ -3,25 +3,21 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import WorkIcon from "@mui/icons-material/Work";
 import Drawer from "@mui/material/Drawer";
-
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 import WhatshotIcon from "@mui/icons-material/Whatshot";
 import HelpIcon from "@mui/icons-material/Help";
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import { useNavigate, useNavigation } from "react-router-dom";
-import { amber, green, grey, orange, yellow } from "@mui/material/colors";
+import { useNavigate } from "react-router-dom";
+import { orange } from "@mui/material/colors";
 
 const Header = () => {
   const [open, setOpen] = React.useState(false);

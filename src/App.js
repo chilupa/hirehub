@@ -1,6 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard/Dashboard";
-import Profile from "./pages/Profile/Profile";
 import Header from "./components/Header/Header";
 import Streaks from "./pages/Streaks/Streaks";
 import Questions from "./pages/Questions/Questions";
